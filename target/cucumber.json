@@ -1,0 +1,53 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 52,
+        "name": "Verify user can pick dates",
+        "description": "",
+        "id": "bvkshbvkjsdbvkjsbvjk;verify-user-can-pick-dates",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4648442300,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Open Emirates application \u003cURL\u003e",
+            "match": {
+              "location": "StepDep.open_Emirates_application_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27404990700,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: /html/body/div[7]/main/div/div/div/div[1]/div//app-bw-main/section/div/div/div/div[1]/div/app-flights/div/div/div[2]/app-calendar/div/form/div/div[1]/div/ngb-datepicker/div[1]/ngb-datepicker-navigation\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.11.0\u0027, revision: \u0027040bc5406b\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.19\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\r\n\tat DemoStepDefinition.StepDep.depert_arrival_dates(StepDep.java:273)\r\n\tat ✽.Then Depert/arrival dates(Demo.feature:54)\r\n",
+              "status": "failed"
+            },
+            "line": 54,
+            "name": "Depert/arrival dates",
+            "match": {
+              "location": "StepDep.depert_arrival_dates()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 51,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "bvkshbvkjsdbvkjsbvjk",
+    "description": "",
+    "id": "bvkshbvkjsdbvkjsbvjk",
+    "keyword": "Feature",
+    "uri": "Demo.feature"
+  }
+]
